@@ -1,87 +1,232 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Learn how to delete your ParkShare account and associated data from the ParkShare mobile app.">
-  <meta name="robots" content="index, follow">
-  <title>Delete Your Account | ParkShare</title>
-  <style>
-    :root {color-scheme: light; --navy:#152b49; --blue:#1766c2; --ink:#233249; --muted:#596b80; --line:#e1e9f2; --bg:#f4f8fc;}
-    * {box-sizing:border-box}
-    body {margin:0; background:var(--bg); color:var(--ink); font:16px/1.65 system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif}
-    .top {background:linear-gradient(120deg,#102b4d,#175597);color:white;padding:45px 22px 52px}
-    .wrap {max-width:850px;margin:auto}
-    .brand {display:flex;align-items:center;gap:12px;font-weight:800;letter-spacing:.2px;font-size:21px}
-    .mark {display:grid;place-items:center;width:39px;height:39px;border-radius:11px;background:#fff;color:#155492;font-size:21px}
-    h1 {font-size:clamp(29px,5vw,43px);line-height:1.2;margin:29px 0 12px}
-    .top p {max-width:690px;color:#e7f2ff;margin:0}
-    main {max-width:850px;margin:-22px auto 50px;padding:0 18px}
-    article {background:white;border-radius:18px;padding:clamp(23px,5vw,44px);box-shadow:0 12px 32px #12345a12}
-    section+section {border-top:1px solid var(--line);margin-top:29px;padding-top:24px}
-    h2 {font-size:22px;line-height:1.35;color:var(--navy);margin:0 0 13px}
-    p {margin:9px 0 14px} ol,ul {padding-left:25px;margin:12px 0} li {margin:9px 0}
-    .note {background:#eef6ff;border-left:4px solid var(--blue);padding:14px 17px;border-radius:7px;margin:17px 0}
-    .link {color:#155bb1;overflow-wrap:anywhere}
-    footer {text-align:center;color:var(--muted);font-size:14px;padding:0 18px 32px}
-    @media(max-width:500px){.top{padding:29px 20px 49px}h1{margin-top:23px}article{border-radius:14px}}
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>KSAAN Zone Privacy Policy</title>
+<style>
+body{
+    font-family:Arial,sans-serif;
+    background:#f4f6f9;
+    margin:0;
+    padding:30px;
+}
+.container{
+    max-width:900px;
+    margin:auto;
+    background:#fff;
+    padding:30px;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,.1);
+}
+h1,h2{
+    color:#0d47a1;
+}
+p,li{
+    line-height:1.7;
+    color:#333;
+}
+.notice{
+    background:#f8fbff;
+    border-left:4px solid #0d47a1;
+    padding:14px 16px;
+    margin:20px 0;
+}
+.small{
+    font-size:14px;
+    color:#555;
+}
+</style>
 </head>
+
 <body>
-  <header class="top">
-    <div class="wrap">
-      <div class="brand"><span class="mark" aria-hidden="true">P</span><span>ParkShare</span></div>
-      <h1>Delete your ParkShare account</h1>
-      <p>Instructions for vehicle users and parking space owners to permanently delete their account and associated personal information.</p>
-    </div>
-  </header>
-  <main>
-    <article>
-      <section aria-labelledby="steps">
-        <h2 id="steps">How to request account deletion</h2>
-        <p>You can request deletion directly from the ParkShare mobile app:</p>
-        <ol>
-          <li>Open <strong>ParkShare</strong> and <strong>Log in</strong> to the account you want to delete.</li>
-          <li>Go to the <strong>Home</strong> screen.</li>
-          <li>If necessary, <strong>refresh</strong> the app. If you are asked to sign in again, <strong>Log in</strong> again.</li>
-          <li>Open your account or profile area and select <strong>Delete Account</strong>.</li>
-          <li>Read the deletion warning and confirm that you want to continue.</li>
-          <li>Enter your account password to verify your identity.</li>
-          <li>Tap <strong>Delete Account Permanently</strong>.</li>
-          <li>After successful deletion, ParkShare displays a confirmation and returns you to the account selection screen.</li>
-        </ol>
-        <div class="note"><strong>Important:</strong> This action is permanent. Your ParkShare account will be deactivated and your personal account information anonymized. You will no longer be able to sign in to the deleted account.</div>
-      </section>
-      <section aria-labelledby="removed">
-        <h2 id="removed">Data deleted or anonymized</h2>
-        <p>When an account deletion succeeds, ParkShare processes the following information:</p>
-        <ul>
-          <li><strong>Account details:</strong> your name and email are replaced with non-identifying placeholders; phone number and saved UPI ID are cleared; your previous password is invalidated.</li>
-          <li><strong>Vehicle users:</strong> saved vehicle records are deleted, and their uploaded vehicle photos are scheduled for removal.</li>
-          <li><strong>Parking owners:</strong> listings without booking history are deleted. Listings with booking history are disabled and their descriptive and location fields are anonymized.</li>
-          <li><strong>Messages and security data:</strong> conversations, refresh tokens and password-reset codes associated with your account are deleted.</li>
-          <li><strong>Upcoming activity:</strong> eligible pending, confirmed and active bookings linked to your account are cancelled.</li>
-        </ul>
-      </section>
-      <section aria-labelledby="retained">
-        <h2 id="retained">Data retained and why</h2>
-        <p>Some non-active records are retained to maintain the integrity of booking and payment history and to meet any applicable financial, tax, legal or dispute-handling obligations:</p>
-        <ul>
-          <li><strong>Booking history:</strong> historical booking records and booking-status history may be retained, including records of cancellations.</li>
-          <li><strong>Payment records:</strong> necessary payment and transaction records may be retained. Parking owners' saved UPI IDs are cleared from the specified financial record fields.</li>
-          <li><strong>Technical account record:</strong> an inactive, anonymized account record remains to preserve database relationships.</li>
-          <li><strong>Listing media:</strong> some photos of historical parking listings may remain available with preserved booking history.</li>
-        </ul>
-        <p><strong>Retention period:</strong> Retained records are kept for as long as required by applicable obligations or legitimate recordkeeping needs. ParkShare has not specified a fixed retention period for these records on this page.</p>
-      </section>
-      <section aria-labelledby="help">
-        <h2 id="help">Need help?</h2>
-        <p>If you have trouble completing account deletion, confirm you are signed in to the intended account and try the in-app steps again. Never share your password or OTP with anyone.</p>
-        <p>Visiting this information page does not delete an account. Account deletion is completed inside the ParkShare app.</p>
-      </section>
-    </article>
-  </main>
-  <footer>© 2026 ParkShare · Account Deletion Information</footer>
+
+<div class="container">
+
+<h1>KSAAN Zone Privacy Policy</h1>
+
+<p><strong>Effective Date:</strong> September 8, 2026</p>
+<p><strong>Last Updated:</strong> September 8, 2026</p>
+
+<p>
+KSAAN Zone ("we", "our", or "us") is committed to protecting the privacy and personal information of users of the KSAAN Zone mobile application.
+This Privacy Policy explains what information we collect, how we use it, how we protect it, when it may be shared, how long we retain it, and how users can request deletion of their information.
+</p>
+
+<h2>1. Developer and App Information</h2>
+
+<p>
+<strong>Application:</strong> KSAAN Zone<br>
+<strong>Developer:</strong> KSAAN Zone<br>
+<strong>Contact Email:</strong> support@ksaanzone.com
+</p>
+
+<h2>2. Information We Collect</h2>
+
+<p>
+Depending on the features used in the application, KSAAN Zone may collect and process the following information:
+</p>
+
+<ul>
+<li>Name</li>
+<li>Phone number</li>
+<li>Account and authentication information required to sign in to the application</li>
+<li>Student profile information</li>
+<li>Attendance information</li>
+<li>Fee-related information</li>
+<li>Leave requests and related information submitted by the user</li>
+<li>Notification preferences</li>
+<li>Information voluntarily provided when contacting support</li>
+<li>Basic technical information needed to operate, secure, troubleshoot, and improve the application, where applicable</li>
+</ul>
+
+<p>
+KSAAN Zone does not intentionally collect personal information that is not required for the operation of the application or the services requested by the user.
+</p>
+
+<h2>3. How We Collect Information</h2>
+
+<p>
+Information may be collected directly from users when they register, sign in, update their profile, submit attendance or leave-related information, interact with fee-related features, change notification preferences, or contact support.
+Some information may also be generated automatically as part of normal application and server operation for security, troubleshooting, and service delivery.
+</p>
+
+<h2>4. How We Use Information</h2>
+
+<p>We use personal information only for legitimate purposes connected with the KSAAN Zone service, including:</p>
+
+<ul>
+<li>Creating and managing user accounts</li>
+<li>Authenticating users and maintaining account security</li>
+<li>Managing student profiles</li>
+<li>Managing attendance records</li>
+<li>Managing fee-related records and administrative information</li>
+<li>Processing leave requests</li>
+<li>Sending service-related notifications and updates</li>
+<li>Providing customer and technical support</li>
+<li>Maintaining the security and reliability of the application</li>
+<li>Troubleshooting errors and improving application performance</li>
+<li>Complying with applicable legal, regulatory, or administrative requirements</li>
+</ul>
+
+<h2>5. Data Sharing and Disclosure</h2>
+
+<p>
+We do not sell or rent users' personal information.
+</p>
+
+<p>
+Personal information may be shared only when reasonably necessary to operate KSAAN Zone, provide a requested service, comply with legal obligations, or protect the security of users and the application.
+Where used, such recipients may include:
+</p>
+
+<ul>
+<li>Cloud hosting, server, database, or infrastructure service providers</li>
+<li>Notification, email, or messaging service providers used to deliver application communications</li>
+<li>Technical support or service providers that assist with operating or maintaining the application</li>
+<li>Authorized educational or administrative personnel who require access for legitimate operational purposes</li>
+<li>Government authorities, regulators, law-enforcement agencies, or courts when disclosure is required by applicable law</li>
+</ul>
+
+<p>
+Service providers are expected to process information only for the purposes for which it is provided and to apply appropriate safeguards.
+</p>
+
+<h2>6. Data Security and Handling</h2>
+
+<p>
+We use reasonable technical, administrative, and organizational safeguards designed to protect personal information against unauthorized access, misuse, alteration, disclosure, or destruction.
+These safeguards may include authenticated access to user accounts, restricted access to administrative systems and databases, server and database security controls, and secure network transmission where supported by the production environment.
+</p>
+
+<p>
+Access to personal information is limited to authorized persons and systems that require the information for legitimate operational purposes.
+We do not intentionally expose passwords, authentication credentials, or other sensitive account information to unauthorized users.
+</p>
+
+<p>
+No method of electronic storage or transmission is completely secure, so while we take reasonable precautions, absolute security cannot be guaranteed.
+</p>
+
+<h2>7. Data Retention</h2>
+
+<p>
+We retain personal information only for as long as it is reasonably necessary to provide KSAAN Zone services, maintain user accounts and administrative records, resolve disputes, prevent fraud or misuse, meet security requirements, and comply with applicable legal or regulatory obligations.
+</p>
+
+<p>
+When information is no longer required for these purposes, it will be deleted, anonymized, or otherwise handled in accordance with our operational and legal requirements.
+Backup copies may remain for a limited period until they are overwritten or deleted as part of normal backup processes.
+</p>
+
+<h2>8. Account and Data Deletion</h2>
+
+<p>
+Users may request deletion of their KSAAN Zone account and associated personal information through the account or settings area of the application where that option is available, or by contacting us at:
+</p>
+
+<p><strong>Email:</strong> support@ksaanzone.com</p>
+
+<p>
+We may verify the identity of the person making the request before processing deletion.
+After a valid deletion request is processed, personal information associated with the account will be removed from active systems unless certain information must be retained for legitimate legal, accounting, fraud-prevention, dispute-resolution, security, or regulatory purposes.
+Any information retained for such purposes will be kept only for as long as necessary for those purposes.
+</p>
+
+<h2>9. Notifications</h2>
+
+<p>
+KSAAN Zone may send service-related notifications, reminders, account updates, attendance information, fee-related information, or other operational communications.
+Users may manage notification preferences through the application or device settings where such controls are available.
+</p>
+
+<h2>10. Children's Privacy</h2>
+
+<p>
+KSAAN Zone is intended for use in connection with educational or institutional services.
+We do not knowingly seek to collect personal information directly from children without appropriate authorization from a parent, guardian, educational institution, or other authorized party where such authorization is required.
+</p>
+
+<p>
+If we become aware that personal information has been collected from a child without appropriate authorization, we will take reasonable steps to review and delete the information where required.
+</p>
+
+<h2>11. User Rights and Choices</h2>
+
+<p>
+Subject to applicable law, users may contact us to request access to, correction of, or deletion of personal information associated with their account.
+Users may also contact us with questions about how their personal information is handled.
+</p>
+
+<h2>12. Changes to This Privacy Policy</h2>
+
+<p>
+We may update this Privacy Policy from time to time to reflect changes to the application, our data-handling practices, legal requirements, or Google Play policies.
+When we make material changes, we will update the "Last Updated" date shown at the top of this page.
+</p>
+
+<h2>13. Contact Us</h2>
+
+<p>
+If you have questions, concerns, or requests regarding this Privacy Policy or the handling of your personal information, please contact:
+</p>
+
+<p>
+<strong>Developer:</strong> KSAAN Zone<br>
+<strong>Email:</strong> support@ksaanzone.com
+</p>
+
+<div class="notice">
+<strong>Important:</strong>
+This Privacy Policy should accurately match the actual features and data-handling practices of the KSAAN Zone application.
+If the app later starts collecting additional personal or sensitive information, using new permissions, or sharing data with additional third-party services, this policy should be updated accordingly.
+</div>
+
+<p class="small">
+This policy is provided to explain KSAAN Zone's data practices transparently to users and to support compliance with applicable Google Play user data requirements.
+</p>
+
+</div>
+
 </body>
 </html>
-
